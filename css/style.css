@@ -1,0 +1,378 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 110px;
+    background-color: black;
+    color: white;
+}
+.dropmenu {
+    position: relative;
+}
+.dropitem{
+    background-color: white;
+    color: white;
+    position: absolute;
+    display: none;
+    left: -30px;
+    width: 180px;
+    transition: 1s;
+    padding: 5px;
+
+}
+.dropitem .list-group-item {
+    padding: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px
+}
+.dropitem .list-group-item a {
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.dropmenu:hover .dropitem {
+    display: block;
+}
+.dropmenu1 {
+    position: relative;
+}
+.dropitem1{
+    background-color: white;
+    position: absolute;
+    display: none;
+    top: -10px;
+    left: 165px;
+    width: 200px;
+    box-shadow: 0px 1px 10px 0px rgb(218, 214, 214);
+
+}
+.dropitem2{
+    background-color: white;
+    color: black;
+    position: absolute;
+    display: none;
+    top: 40px;
+    left: -290px;
+    width: 600px;
+    transition: 0.5s;
+
+}
+.dropitem2 .list-group-item {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 3;
+    padding: 3px;
+}
+
+.dropitem2 h6 a {
+    text-decoration: none;
+    color: black;
+}
+.dropitem2 h6 a:hover {
+    color: #fd0000;
+}
+
+.dropitem2 .list-group-item a {
+    color: black;
+}
+.dropitem2:hover  {
+    color:#fd0000;
+}
+.dropitem1 .list-group-item1 {
+    padding: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px
+}
+.dropmenu1:hover .dropitem1 {
+    display: block;
+}
+.dropmenu:hover .dropitem2 {
+    display: block;
+}
+
+#top {
+    height: 100vh;
+    background-image: linear-gradient(
+0deg
+, rgba(0,0,0,0.6), rgba(14, 13, 13, 0.6)), url("../images/velik.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.navbar {
+    background-color: transparent !important;
+}
+.navbar-brand {
+    color: white !important;
+    font-weight: 300;
+}
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+.topbar2 {
+    display: none;
+}
+.linklar {
+    font-size: 18px;
+}
+.maincontent {
+    opacity: 0.8;
+}
+code:hover {
+    color: rgb(214, 25, 25) !important;
+}
+#section1 {
+    background-color: white;
+    z-index: 1;
+    margin-bottom: 400px;
+}
+
+.card {
+    position: relative;
+}
+.card1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card1 a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: Poppins, sans-serif;
+    transition: 0.3s;
+}
+.card1 a p {
+    font-family: Dosis;
+}
+.card1 a:hover {
+    color: #FF453A;
+}
+.chiziq {
+    position: relative;
+    top: -31px;
+    left: 10px;
+}
+
+.best {
+    font-family:  Poppins, sans-serif;
+}
+.mb{
+    margin-bottom: 27px;
+}
+.narxlar {
+    position: relative;
+    z-index: 99;
+    border: 0px;
+}
+
+.narx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border: 5px solid rgb(226, 222, 222);
+
+}
+.narx:hover {
+    transition: all 0.3s ease 0s;
+    background-color: white;
+    opacity: 0.8;
+
+}
+
+.narxlar:hover .narx{
+    z-index: 100;
+}
+
+.narx a {
+    color: black; 
+    font-weight: 600;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.narx a:hover {
+    color:#ff0d00;
+}
+
+.narx1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.narxlar:hover .narx1{
+    z-index: 100;
+}
+
+.sana {
+    width: 70px;
+    height: 70px;
+}
+.position {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.malumot {
+    position: absolute;
+    bottom: -10px; 
+    left: 0px;
+}
+.malumot a {
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.malumot a:hover {
+    color: #FF453A;
+}
+.bord {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    border: 1px solid rgb(163, 159, 159);
+    margin: 5px 10px 0px 0px;
+    color: rgb(138, 133, 133);
+
+    
+}
+.list-group-item{
+    border: 0px;
+    padding: 0px;
+    font-size: 17px;
+    background-color: transparent;
+
+}
+
+.list-group-item  a {
+    text-decoration: none;
+    color: rgb(138, 133, 133);
+    transition: 0.3s;
+}
+.bord:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+.list-group-item:hover a {
+    color: #fd0000;
+}
+.list-group {
+    background-color: transparent;
+}
+
+footer {
+    width: 100%;
+    background-color: #F6F6F6;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.footerbot {
+    color: rgba(82, 80, 80, 0.644);
+}
+.footerbot a {
+    color:  rgba(82, 80, 80, 0.644);
+    text-decoration: none;
+}
+.footerbot a:hover {
+    color: #ff0d00;
+}
+
+.tepaga {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.uppp {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.up {
+    position: absolute;
+    bottom: 10px;
+    left: 18px;
+}
+
+@keyframes upp {
+    0% {
+        bottom: -15px;
+        left: 0px;
+    }
+    100% {
+        bottom: 20px;
+        left: 0px;
+    }
+}
+.uppp:hover  {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    animation-name: upp;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@media screen and (max-width: 980px) {
+    .topbar {
+        display: none;
+    }
+    .topbar2 {
+        display: block;
+    }
+    #section1 {
+        margin-bottom: 700px;
+    }
+    
+
+}
+
+@media screen and (max-width:600px) {
+    #header {
+        padding: 20px;
+    }
+    footer {
+       position: unset;
+    }
+    #section1 {
+        margin-bottom: 10px;
+    }
+    .footerbot {
+        text-align: center !important;
+    }
+
+}
